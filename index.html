@@ -49,7 +49,6 @@
   <script>
     let people = [];
 
-    // Загружаем базу имён из JSON
     fetch("people.json")
       .then(response => response.json())
       .then(data => people = data)
