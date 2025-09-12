@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Персонализированная информация</title>
+  <style>
+    body {
+      font-family: Verdana, sans-serif;
+      text-align: center;
+      margin-top: 80px;
+      background: #f7f7f7;
+    }
+    input, button {
+      padding: 10px 15px;
+      font-size: 16px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      margin: 5px;
+    }
+    button {
+      background-color: #4CAF50;
+      color: white;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    #result {
+      margin-top: 30px;
+      padding: 20px;
+      display: inline-block;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      font-size: 18px;
+      font-weight: bold;
+      color: #333;
+      max-width: 400px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Введите своё имя</h2>
+  <input type="text" id="nameInput" placeholder="Ваше имя">
+  <button onclick="showInfo()">Показать</button>
+  
+  <div id="result"></div>
+
+  <script>
+    let people = [];
+
+    // Загружаем базу имён из JSON
+    fetch("people.json")
+      .then(response => response.json())
+      .then(data => people = data)
+      .catch(err => console.error("Ошибка загрузки базы:", err));
+
+    function showInfo() {
+      const inputName = document.getElementById("nameInput").value.trim().toLowerCase();
+      const person = people.find(p => p.name === inputName);
+
+      if (person) {
+        document.getElementById("result").innerHTML = `<div>${person.text}</div>`;
+      } else {
+        document.getElementById("result").innerHTML = "Извините, информации для этого имени нет.";
+      }
+    }
+  </script>
+</body>
+</html>
