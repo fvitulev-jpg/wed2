@@ -138,20 +138,22 @@
         });
     }
 
-    function showInfo() {
-      const raw = input.value.trim();
-      if (!raw) {
-        result.textContent = 'Please enter a name.';
-        return;
-      }
-      const key = raw.toLowerCase();
-      if (Object.prototype.hasOwnProperty.call(peopleMap, key)) {
-        result.textContent = peopleMap[key] || 'No text assigned for this name.';
-      } else {
-        result.textContent = `Hello ${raw}! We don't have info for this name yet.`;
-      }
-    }
-
+function showInfo() {
+  const raw = input.value.trim();
+  if (!raw) {
+    result.textContent = 'Please enter a name.';
+    return;
+  }
+  const key = raw.toLowerCase();
+  if (Object.prototype.hasOwnProperty.call(peopleMap, key)) {
+    const text = peopleMap[key] || 'No text assigned for this name.';
+    // Каждая строка превращается в абзац
+    const paragraphs = text.split(/\n+/).map(p => `<p>${p}</p>`).join("");
+    result.innerHTML = paragraphs;
+  } else {
+    result.innerHTML = `<p>Hello ${raw}!</p><p>We don't have info for this name yet.</p>`;
+  }
+}
     // Enter key triggers show
     input.addEventListener('keydown', (e) => { if (e.key === 'Enter') showInfo(); });
     btn.addEventListener('click', showInfo);
