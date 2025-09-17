@@ -13,10 +13,10 @@
   },
   {
     "name": "alina",
-    "text": "Your place is table number 1\nAt the same table with you:\nJakob"
+    "text": "Please take your seat at Table 1\nAt the same table with you:\nJakob"
   },
   {
     "name": "jakob",
-    "text": "Your place is table number 1\nAt the same table with you:\nAlina"
+    "text": "Please take your seat at Table 1\nAt the same table with you:\nAlina"
   }
 ]
