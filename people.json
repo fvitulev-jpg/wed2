@@ -13,14 +13,10 @@
   },
   {
     "name": "alina",
-    "text": "Your place is table number 1
-            at the same table with you:
-            Jakob"
+    "text": "Your place is table number 1\nAt the same table with you:\nJakob"
   },
   {
     "name": "jakob",
-    "text": "Your place is table number 1
-            at the same table with you:
-            Alina"
+    "text": "Your place is table number 1\nAt the same table with you:\nAlina"
   }
 ]
