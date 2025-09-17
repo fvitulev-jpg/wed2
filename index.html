@@ -1,88 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Personalized Form</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Personalized Info</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: Verdana, sans-serif;
       margin: 0;
       padding: 0;
       display: flex;
       justify-content: center;
-      align-items: center;
+      align-items: flex-start;
       min-height: 100vh;
-      background-color: #f4f4f4;
+      background: #f7f7f7;
+      color: #222;
     }
     .container {
+      width: 100%;
+      max-width: 520px;
+      margin: 40px 16px;
       background: #fff;
-      padding: 20px;
       border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-      max-width: 400px;
-      width: 90%;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+      padding: 18px;
+      box-sizing: border-box;
       text-align: center;
     }
     h2 {
-      margin-bottom: 15px;
+      margin: 0 0 14px 0;
+      font-size: 20px;
     }
-    input {
-      width: 100%;
-      padding: 10px;
-      margin: 10px 0;
-      border: 1px solid #ccc;
+    .form-row {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    input#nameInput {
+      flex: 1;
+      min-width: 180px;
+      padding: 12px 14px;
       border-radius: 8px;
+      border: 1px solid #ccc;
       font-size: 16px;
+      box-sizing: border-box;
     }
-    button {
+    button#showBtn {
+      padding: 12px 18px;
+      border-radius: 8px;
+      border: none;
       background: #007BFF;
       color: #fff;
-      border: none;
-      padding: 10px 20px;
-      border-radius: 8px;
-      cursor: pointer;
       font-size: 16px;
-      transition: background 0.3s;
+      cursor: pointer;
+      transition: background 0.2s;
     }
-    button:hover {
-      background: #0056b3;
+    button#showBtn:hover { background: #0056b3; }
+    button.disabled { opacity: 0.6; pointer-events: none; }
+
+    #result {
+      margin-top: 18px;
+      padding: 16px;
+      background: #fafafa;
+      border-radius: 10px;
+      box-shadow: inset 0 1px 0 rgba(0,0,0,0.02);
+      min-height: 48px;
+      font-size: 16px;
+      color: #222;
+      word-break: break-word;
     }
-    .result {
-      margin-top: 20px;
-      font-size: 18px;
-      font-weight: bold;
-      color: #333;
+    .note {
+      margin-top: 10px;
+      font-size: 13px;
+      color: #666;
+    }
+
+    @media (max-width: 480px) {
+      .form-row { flex-direction: column; }
+      input#nameInput, button#showBtn { width: 100%; }
+      .container { margin: 20px 12px; padding: 14px; }
     }
   </style>
 </head>
 <body>
   <div class="container">
     <h2>Enter your name</h2>
-    <input type="text" id="nameInput" placeholder="Type your name here">
-    <button onclick="showInfo()">Show</button>
-    <div class="result" id="result"></div>
+
+    <div class="form-row" role="form" aria-label="Personalized form">
+      <input id="nameInput" type="text" placeholder="Type your name here" aria-label="Name input">
+      <button id="showBtn" class="disabled" aria-disabled="true">Show</button>
+    </div>
+
+    <div id="result" aria-live="polite"></div>
+    <div id="note" class="note">Loading database...</div>
   </div>
 
   <script>
-    function showInfo() {
-      const name = document.getElementById('nameInput').value.trim();
-      const resultDiv = document.getElementById('result');
+    const input = document.getElementById('nameInput');
+    const btn = document.getElementById('showBtn');
+    const result = document.getElementById('result');
+    const note = document.getElementById('note');
 
-      if (!name) {
-        resultDiv.textContent = "Please enter a name.";
+    let peopleMap = {}; // name (lowercase) -> text
+
+    function loadPeople() {
+      // Cache-busting param ensures latest people.json after editing
+      fetch('people.json?t=' + Date.now())
+        .then(resp => {
+          if (!resp.ok) throw new Error('Failed to fetch people.json: ' + resp.status);
+          return resp.json();
+        })
+        .then(data => {
+          peopleMap = {};
+          if (Array.isArray(data)) {
+            data.forEach(item => {
+              if (item && item.name) {
+                const key = String(item.name).trim().toLowerCase();
+                peopleMap[key] = item.text || '';
+              }
+            });
+            note.textContent = 'Database loaded. Type a name and press Show (or Enter).';
+            btn.classList.remove('disabled');
+            btn.removeAttribute('aria-disabled');
+          } else {
+            note.textContent = 'Invalid people.json format: expected an array.';
+            btn.classList.add('disabled');
+            btn.setAttribute('aria-disabled', 'true');
+          }
+        })
+        .catch(err => {
+          console.error(err);
+          note.textContent = 'Cannot load people.json. Make sure file exists in site root.';
+          btn.classList.add('disabled');
+          btn.setAttribute('aria-disabled', 'true');
+        });
+    }
+
+    function showInfo() {
+      const raw = input.value.trim();
+      if (!raw) {
+        result.textContent = 'Please enter a name.';
         return;
       }
-
-      // Example personalized responses
-      const responses = {
-        "John": "Hello John! Here is your personalized information.",
-        "Alice": "Welcome Alice! Great to see you here.",
-        "Michael": "Hi Michael! This page is customized for you."
-      };
-
-      resultDiv.textContent = responses[name] || `Hello ${name}! We will add your info soon.`;
+      const key = raw.toLowerCase();
+      if (Object.prototype.hasOwnProperty.call(peopleMap, key)) {
+        result.textContent = peopleMap[key] || 'No text assigned for this name.';
+      } else {
+        result.textContent = `Hello ${raw}! We don't have info for this name yet.`;
+      }
     }
+
+    // Enter key triggers show
+    input.addEventListener('keydown', (e) => { if (e.key === 'Enter') showInfo(); });
+    btn.addEventListener('click', showInfo);
+
+    // Initial load and periodic refresh (optional) to pick up edits to people.json automatically
+    loadPeople();
+    // Optional auto-reload every 60 seconds; remove if not desired
+    setInterval(loadPeople, 60000);
   </script>
 </body>
 </html>
