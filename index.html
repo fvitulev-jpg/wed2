@@ -138,39 +138,75 @@
         });
     }
 
+let pendingName = null; // сохраняем имя, если нужно уточнение
+
 async function showInfo() {
-  const name = document.getElementById("nameInput").value.trim().toLowerCase();
   const response = await fetch("people.json");
   const people = await response.json();
-
-  const person = people.find(p => p.name === name);
   const resultDiv = document.getElementById("result");
   resultDiv.innerHTML = "";
 
-  if (person) {
-    const [firstLine, secondLine, ...others] = person.text.split("\n");
+  if (!pendingName) {
+    // шаг 1: ищем по имени
+    const name = document.getElementById("nameInput").value.trim().toLowerCase();
+    const matches = people.filter(p => p.name === name);
 
-    // выводим первые строки
-    resultDiv.innerHTML = `<p>${firstLine}</p><p>${secondLine}</p>`;
+    if (matches.length === 0) {
+      resultDiv.textContent = "Name not found.";
+      return;
+    }
 
-    // блок с колонками
-    const columnsDiv = document.createElement("div");
-    columnsDiv.style.display = "grid";
-    columnsDiv.style.gridTemplateColumns = "repeat(3, 1fr)";
-    columnsDiv.style.gap = "10px";
-    columnsDiv.style.marginTop = "10px";
-
-    others.forEach(o => {
-      const div = document.createElement("div");
-      div.textContent = o;
-      columnsDiv.appendChild(div);
-    });
-
-    resultDiv.appendChild(columnsDiv);
+    if (matches.length === 1) {
+      // нашли уникальное имя
+      showPerson(matches[0]);
+    } else {
+      // несколько одинаковых имён → просим ввести фамилию
+      pendingName = name;
+      resultDiv.innerHTML = `
+        <p>Several people with this name found. Please enter your surname:</p>
+        <input type="text" id="surnameInput" placeholder="Your surname">
+        <button onclick="showInfo()">Confirm</button>
+      `;
+    }
 
   } else {
-    resultDiv.textContent = "Name not found.";
+    // шаг 2: уточнение по фамилии
+    const surname = document.getElementById("surnameInput").value.trim().toLowerCase();
+    const matches = people.filter(p => p.name === pendingName && p.surname === surname);
+
+    if (matches.length === 0) {
+      resultDiv.textContent = "No match found for this name and surname.";
+    } else {
+      showPerson(matches[0]);
+    }
+
+    pendingName = null; // сбрасываем
   }
+}
+
+function showPerson(person) {
+  const resultDiv = document.getElementById("result");
+  resultDiv.innerHTML = "";
+
+  const [firstLine, secondLine, ...others] = person.text.split("\n");
+
+  // выводим первые строки
+  resultDiv.innerHTML = `<p>${firstLine}</p><p>${secondLine}</p>`;
+
+  // блок с колонками
+  const columnsDiv = document.createElement("div");
+  columnsDiv.style.display = "grid";
+  columnsDiv.style.gridTemplateColumns = "repeat(3, 1fr)";
+  columnsDiv.style.gap = "10px";
+  columnsDiv.style.marginTop = "10px";
+
+  others.forEach(o => {
+    const div = document.createElement("div");
+    div.textContent = o;
+    columnsDiv.appendChild(div);
+  });
+
+  resultDiv.appendChild(columnsDiv);
 }
     // Enter key triggers show
     input.addEventListener('keydown', (e) => { if (e.key === 'Enter') showInfo(); });
