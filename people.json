@@ -1,22 +1,82 @@
 [
   {
-    "name": "анна",
-    "text": "Вы сидите в ватрушке"
+    "name": "enzo",
+    "text": "Your place is Head Table\nAt the same table with you:\nMiran\nRang\nVikram\nDina\nTina\nMax\nCynthia\nAdi\nJakob\nAlina\nSerish\nJoao\nAida\nGabby\nBlaise\nAru\nAiko\nTogzhan\nJanger"
   },
   {
-    "name": "федор",
-    "text": "В стойло!"
+    "name": "miran",
+    "text": "Your place is Head Table\nAt the same table with you:\nEnzo\nRang\nVikram\nDina\nTina\nMax\nCynthia\nAdi\nJakob\nAlina\nSerish\nJoao\nAida\nGabby\nBlaise\nAru\nAiko\nTogzhan\nJanger"
   },
   {
-    "name": "псовка",
-    "text": "Тусовка"
+    "name": "rang",
+    "text": "Your place is Head Table\nAt the same table with you:\nEnzo\nMiran\nVikram\nDina\nTina\nMax\nCynthia\nAdi\nJakob\nAlina\nSerish\nJoao\nAida\nGabby\nBlaise\nAru\nAiko\nTogzhan\nJanger"
   },
   {
-    "name": "alina",
-    "text": "Please take your seat at Table 1\nAt the same table with you:\nJakob"
+    "name": "vikram",
+    "text": "Your place is Head Table\nAt the same table with you:\nEnzo\nMiran\nRang\nDina\nTina\nMax\nCynthia\nAdi\nJakob\nAlina\nSerish\nJoao\nAida\nGabby\nBlaise\nAru\nAiko\nTogzhan\nJanger"
+  },
+  {
+    "name": "dina",
+    "text": "Your place is Head Table\nAt the same table with you:\nEnzo\nMiran\nRang\nVikram\nTina\nMax\nCynthia\nAdi\nJakob\nAlina\nSerish\nJoao\nAida\nGabby\nBlaise\nAru\nAiko\nTogzhan\nJanger"
+  },
+  {
+    "name": "tina",
+    "text": "Your place is Head Table\nAt the same table with you:\nEnzo\nMiran\nRang\nVikram\nDina\nMax\nCynthia\nAdi\nJakob\nAlina\nSerish\nJoao\nAida\nGabby\nBlaise\nAru\nAiko\nTogzhan\nJanger"
+  },
+  {
+    "name": "max",
+    "text": "Your place is Head Table\nAt the same table with you:\nEnzo\nMiran\nRang\nVikram\nDina\nTina\nCynthia\nAdi\nJakob\nAlina\nSerish\nJoao\nAida\nGabby\nBlaise\nAru\nAiko\nTogzhan\nJanger"
+  },
+  {
+    "name": "cynthia",
+    "text": "Your place is Head Table\nAt the same table with you:\nEnzo\nMiran\nRang\nVikram\nDina\nTina\nMax\nAdi\nJakob\nAlina\nSerish\nJoao\nAida\nGabby\nBlaise\nAru\nAiko\nTogzhan\nJanger"
+  },
+  {
+    "name": "adi",
+    "text": "Your place is Head Table\nAt the same table with you:\nEnzo\nMiran\nRang\nVikram\nDina\nTina\nMax\nCynthia\nJakob\nAlina\nSerish\nJoao\nAida\nGabby\nBlaise\nAru\nAiko\nTogzhan\nJanger"
   },
   {
     "name": "jakob",
-    "text": "Please take your seat at Table 1\nAt the same table with you:\nAlina"
+    "text": "Your place is Head Table\nAt the same table with you:\nEnzo\nMiran\nRang\nVikram\nDina\nTina\nMax\nCynthia\nAdi\nAlina\nSerish\nJoao\nAida\nGabby\nBlaise\nAru\nAiko\nTogzhan\nJanger"
+  },
+  {
+    "name": "alina",
+    "text": "Your place is Head Table\nAt the same table with you:\nEnzo\nMiran\nRang\nVikram\nDina\nTina\nMax\nCynthia\nAdi\nJakob\nSerish\nJoao\nAida\nGabby\nBlaise\nAru\nAiko\nTogzhan\nJanger"
+  },
+  {
+    "name": "serish",
+    "text": "Your place is Head Table\nAt the same table with you:\nEnzo\nMiran\nRang\nVikram\nDina\nTina\nMax\nCynthia\nAdi\nJakob\nAlina\nJoao\nAida\nGabby\nBlaise\nAru\nAiko\nTogzhan\nJanger"
+  },
+  {
+    "name": "joao",
+    "text": "Your place is Head Table\nAt the same table with you:\nEnzo\nMiran\nRang\nVikram\nDina\nTina\nMax\nCynthia\nAdi\nJakob\nAlina\nSerish\nAida\nGabby\nBlaise\nAru\nAiko\nTogzhan\nJanger"
+  },
+  {
+    "name": "aida",
+    "text": "Your place is Head Table\nAt the same table with you:\nEnzo\nMiran\nRang\nVikram\nDina\nTina\nMax\nCynthia\nAdi\nJakob\nAlina\nSerish\nJoao\nGabby\nBlaise\nAru\nAiko\nTogzhan\nJanger"
+  },
+  {
+    "name": "gabby",
+    "text": "Your place is Head Table\nAt the same table with you:\nEnzo\nMiran\nRang\nVikram\nDina\nTina\nMax\nCynthia\nAdi\nJakob\nAlina\nSerish\nJoao\nAida\nBlaise\nAru\nAiko\nTogzhan\nJanger"
+  },
+  {
+    "name": "blaise",
+    "text": "Your place is Head Table\nAt the same table with you:\nEnzo\nMiran\nRang\nVikram\nDina\nTina\nMax\nCynthia\nAdi\nJakob\nAlina\nSerish\nJoao\nAida\nGabby\nAru\nAiko\nTogzhan\nJanger"
+  },
+  {
+    "name": "aru",
+    "text": "Your place is Head Table\nAt the same table with you:\nEnzo\nMiran\nRang\nVikram\nDina\nTina\nMax\nCynthia\nAdi\nJakob\nAlina\nSerish\nJoao\nAida\nGabby\nBlaise\nAiko\nTogzhan\nJanger"
+  },
+  {
+    "name": "aiko",
+    "text": "Your place is Head Table\nAt the same table with you:\nEnzo\nMiran\nRang\nVikram\nDina\nTina\nMax\nCynthia\nAdi\nJakob\nAlina\nSerish\nJoao\nAida\nGabby\nBlaise\nAru\nTogzhan\nJanger"
+  },
+  {
+    "name": "togzhan",
+    "text": "Your place is Head Table\nAt the same table with you:\nEnzo\nMiran\nRang\nVikram\nDina\nTina\nMax\nCynthia\nAdi\nJakob\nAlina\nSerish\nJoao\nAida\nGabby\nBlaise\nAru\nAiko\nJanger"
+  },
+  {
+    "name": "janger",
+    "text": "Your place is Head Table\nAt the same table with you:\nEnzo\nMiran\nRang\nVikram\nDina\nTina\nMax\nCynthia\nAdi\nJakob\nAlina\nSerish\nJoao\nAida\nGabby\nBlaise\nAru\nAiko\nTogzhan"
   }
 ]
