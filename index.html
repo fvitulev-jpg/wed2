@@ -138,20 +138,38 @@
         });
     }
 
-function showInfo() {
-  const raw = input.value.trim();
-  if (!raw) {
-    result.textContent = 'Please enter a name.';
-    return;
-  }
-  const key = raw.toLowerCase();
-  if (Object.prototype.hasOwnProperty.call(peopleMap, key)) {
-    const text = peopleMap[key] || 'No text assigned for this name.';
-    // Каждая строка превращается в абзац
-    const paragraphs = text.split(/\n+/).map(p => `<p>${p}</p>`).join("");
-    result.innerHTML = paragraphs;
+async function showInfo() {
+  const name = document.getElementById("nameInput").value.trim().toLowerCase();
+  const response = await fetch("people.json");
+  const people = await response.json();
+
+  const person = people.find(p => p.name === name);
+  const resultDiv = document.getElementById("result");
+  resultDiv.innerHTML = "";
+
+  if (person) {
+    const [firstLine, secondLine, ...others] = person.text.split("\n");
+
+    // выводим первые строки
+    resultDiv.innerHTML = `<p>${firstLine}</p><p>${secondLine}</p>`;
+
+    // блок с колонками
+    const columnsDiv = document.createElement("div");
+    columnsDiv.style.display = "grid";
+    columnsDiv.style.gridTemplateColumns = "repeat(3, 1fr)";
+    columnsDiv.style.gap = "10px";
+    columnsDiv.style.marginTop = "10px";
+
+    others.forEach(o => {
+      const div = document.createElement("div");
+      div.textContent = o;
+      columnsDiv.appendChild(div);
+    });
+
+    resultDiv.appendChild(columnsDiv);
+
   } else {
-    result.innerHTML = `<p>Hello ${raw}!</p><p>We don't have info for this name yet.</p>`;
+    resultDiv.textContent = "Name not found.";
   }
 }
     // Enter key triggers show
