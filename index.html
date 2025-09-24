@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Seating Info</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Personalized Info</title>
   <style>
     body {
       font-family: Verdana, sans-serif;
@@ -11,49 +11,90 @@
       padding: 0;
       display: flex;
       justify-content: center;
-      align-items: center;
+      align-items: flex-start;
       min-height: 100vh;
-      background: #f9f9f9;
+      background: #f7f7f7;
+      color: #222;
     }
     .container {
-      background: white;
-      padding: 20px;
-      border-radius: 10px;
-      max-width: 500px;
       width: 100%;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      max-width: 520px;
+      margin: 40px 16px;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+      padding: 18px;
+      box-sizing: border-box;
       text-align: center;
     }
-    input, button {
-      padding: 10px;
-      margin: 10px 0;
-      width: 100%;
-      border-radius: 5px;
+    h2 {
+      margin: 0 0 14px 0;
+      font-size: 20px;
+    }
+    .form-row {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    input#nameInput {
+      flex: 1;
+      min-width: 180px;
+      padding: 12px 14px;
+      border-radius: 8px;
       border: 1px solid #ccc;
       font-size: 16px;
+      box-sizing: border-box;
     }
-    button {
-      background: #007BFF;
-      color: white;
-      cursor: pointer;
+    button#showBtn {
+      padding: 12px 18px;
+      border-radius: 8px;
       border: none;
+      background: #007BFF;
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.2s;
     }
-    button:hover {
-      background: #0056b3;
-    }
+    button#showBtn:hover { background: #0056b3; }
+    button.disabled { opacity: 0.6; pointer-events: none; }
+
     #result {
-      margin-top: 20px;
-      text-align: left;
+      margin-top: 18px;
+      padding: 16px;
+      background: #fafafa;
+      border-radius: 10px;
+      box-shadow: inset 0 1px 0 rgba(0,0,0,0.02);
+      min-height: 48px;
+      font-size: 16px;
+      color: #222;
+      word-break: break-word;
+    }
+    .note {
+      margin-top: 10px;
+      font-size: 13px;
+      color: #666;
+    }
+
+    @media (max-width: 480px) {
+      .form-row { flex-direction: column; }
+      input#nameInput, button#showBtn { width: 100%; }
+      .container { margin: 20px 12px; padding: 14px; }
     }
   </style>
 </head>
 <body>
   <div class="container">
     <h2>Enter your name</h2>
-    <input type="text" id="nameInput" placeholder="Name">
-    <button id="showBtn">Show</button>
-    <p id="note">Loading database...</p>
-    <div id="result"></div>
+
+    <div class="form-row" role="form" aria-label="Personalized form">
+      <input id="nameInput" type="text" placeholder="Type your name here" aria-label="Name input">
+      <button id="showBtn" class="disabled" aria-disabled="true">Show</button>
+    </div>
+
+    <div id="result" aria-live="polite"></div>
+    <div id="note" class="note">Loading database...</div>
   </div>
 
   <script>
@@ -62,93 +103,83 @@
     const result = document.getElementById('result');
     const note = document.getElementById('note');
 
-    let people = [];
-    let pendingName = null; // ждём уточнения фамилии?
+    let peopleMap = {}; // name (lowercase) -> text
 
     function loadPeople() {
+      // Cache-busting param ensures latest people.json after editing
       fetch('people.json?t=' + Date.now())
-        .then(resp => resp.json())
+        .then(resp => {
+          if (!resp.ok) throw new Error('Failed to fetch people.json: ' + resp.status);
+          return resp.json();
+        })
         .then(data => {
-          people = data;
-          note.textContent = 'Database loaded. Type a name and press Show (or Enter).';
-          btn.classList.remove('disabled');
-          btn.removeAttribute('aria-disabled');
+          peopleMap = {};
+          if (Array.isArray(data)) {
+            data.forEach(item => {
+              if (item && item.name) {
+                const key = String(item.name).trim().toLowerCase();
+                peopleMap[key] = item.text || '';
+              }
+            });
+            note.textContent = 'Database loaded. Type a name and press Show (or Enter).';
+            btn.classList.remove('disabled');
+            btn.removeAttribute('aria-disabled');
+          } else {
+            note.textContent = 'Invalid people.json format: expected an array.';
+            btn.classList.add('disabled');
+            btn.setAttribute('aria-disabled', 'true');
+          }
         })
         .catch(err => {
           console.error(err);
-          note.textContent = 'Cannot load people.json.';
+          note.textContent = 'Cannot load people.json. Make sure file exists in site root.';
           btn.classList.add('disabled');
           btn.setAttribute('aria-disabled', 'true');
         });
     }
 
-    function showInfo() {
-      const value = document.getElementById("nameInput").value.trim().toLowerCase();
-      result.innerHTML = "";
+async function showInfo() {
+  const name = document.getElementById("nameInput").value.trim().toLowerCase();
+  const response = await fetch("people.json");
+  const people = await response.json();
 
-      if (!value) {
-        result.textContent = "Please enter your name.";
-        return;
-      }
+  const person = people.find(p => p.name === name);
+  const resultDiv = document.getElementById("result");
+  resultDiv.innerHTML = "";
 
-      if (!pendingName) {
-        // ищем всех по имени
-        const matches = people.filter(p => p.name.toLowerCase() === value);
+  if (person) {
+    const [firstLine, secondLine, ...others] = person.text.split("\n");
 
-        if (matches.length === 0) {
-          result.textContent = "Name not found.";
-        } else if (matches.length === 1) {
-          showPerson(matches[0]);
-        } else {
-          pendingName = value;
-          result.innerHTML = `
-            <p>Several people with this name found. Please enter your surname:</p>
-            <input type="text" id="surnameInput" placeholder="Your surname">
-            <button onclick="showInfo()">Confirm</button>
-          `;
-        }
-      } else {
-        // уточняем по фамилии
-        const surname = document.getElementById("surnameInput").value.trim().toLowerCase();
-        const matches = people.filter(p =>
-          p.name.toLowerCase() === pendingName && p.surname.toLowerCase() === surname
-        );
+    // выводим первые строки
+    resultDiv.innerHTML = `<p>${firstLine}</p><p>${secondLine}</p>`;
 
-        if (matches.length === 0) {
-          result.textContent = "No match found for this name and surname.";
-        } else {
-          showPerson(matches[0]);
-        }
-        pendingName = null;
-      }
-    }
+    // блок с колонками
+    const columnsDiv = document.createElement("div");
+    columnsDiv.style.display = "grid";
+    columnsDiv.style.gridTemplateColumns = "repeat(3, 1fr)";
+    columnsDiv.style.gap = "10px";
+    columnsDiv.style.marginTop = "10px";
 
-    function showPerson(person) {
-      result.innerHTML = "";
+    others.forEach(o => {
+      const div = document.createElement("div");
+      div.textContent = o;
+      columnsDiv.appendChild(div);
+    });
 
-      const [firstLine, secondLine, ...others] = person.text.split("\n");
-      result.innerHTML = `<p>${firstLine}</p><p>${secondLine}</p>`;
+    resultDiv.appendChild(columnsDiv);
 
-      const columnsDiv = document.createElement("div");
-      columnsDiv.style.display = "grid";
-      columnsDiv.style.gridTemplateColumns = "repeat(3, 1fr)";
-      columnsDiv.style.gap = "10px";
-      columnsDiv.style.marginTop = "10px";
-
-      others.forEach(o => {
-        const div = document.createElement("div");
-        div.textContent = o;
-        columnsDiv.appendChild(div);
-      });
-
-      result.appendChild(columnsDiv);
-    }
-
-    // обработчики
+  } else {
+    resultDiv.textContent = "Name not found.";
+  }
+}
+    // Enter key triggers show
     input.addEventListener('keydown', (e) => { if (e.key === 'Enter') showInfo(); });
     btn.addEventListener('click', showInfo);
 
+    // Initial load and periodic refresh (optional) to pick up edits to people.json automatically
     loadPeople();
+    // Optional auto-reload every 60 seconds; remove if not desired
+    setInterval(loadPeople, 60000);
   </script>
 </body>
 </html>
