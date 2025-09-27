@@ -988,5 +988,85 @@
     "name": "mira",
     "surname": "",
     "text": "Your place is Table 15\nAt the same table with you:\nDinmukhamet\nMagda\nIbragim\nRaushan\nGulzhan\nWee Tan\nAlua\nAiman"
+  },
+  {
+    "name": "zharmukhamed",
+    "surname": "",
+    "text": "Your place is Table 14\nAt the same table with you:\nKamila\nAigerim\nMadina Idrissova\nNurzhan\nAylin\nMakpal\nNurmukhamed\nDavid Svanidze\nAman"
+  },
+  {
+    "name": "kamila",
+    "surname": "",
+    "text": "Your place is Table 14\nAt the same table with you:\nZharmukhamed\nAigerim\nMadina Idrissova\nNurzhan\nAylin\nMakpal\nNurmukhamed\nDavid Svanidze\nAman"
+  },
+  {
+    "name": "aigerim",
+    "surname": "",
+    "text": "Your place is Table 14\nAt the same table with you:\nZharmukhamed\nKamila\nMadina Idrissova\nNurzhan\nAylin\nMakpal\nNurmukhamed\nDavid Svanidze\nAman"
+  },
+  {
+    "name": "madina",
+    "surname": "idrissova",
+    "text": "Your place is Table 14\nAt the same table with you:\nZharmukhamed\nKamila\nAigerim\nNurzhan\nAylin\nMakpal\nNurmukhamed\nDavid Svanidze\nAman"
+  },
+  {
+    "name": "madina idrissova",
+    "surname": "",
+    "text": "Your place is Table 14\nAt the same table with you:\nZharmukhamed\nKamila\nAigerim\nNurzhan\nAylin\nMakpal\nNurmukhamed\nDavid Svanidze\nAman"
+  },
+  {
+    "name": "idrissova madina",
+    "surname": "",
+    "text": "Your place is Table 14\nAt the same table with you:\nZharmukhamed\nKamila\nAigerim\nNurzhan\nAylin\nMakpal\nNurmukhamed\nDavid Svanidze\nAman"
+  },
+  {
+    "name": "idrissova",
+    "surname": "",
+    "text": "Your place is Table 14\nAt the same table with you:\nZharmukhamed\nKamila\nAigerim\nNurzhan\nAylin\nMakpal\nNurmukhamed\nDavid Svanidze\nAman"
+  },
+  {
+    "name": "nurzhan",
+    "surname": "",
+    "text": "Your place is Table 14\nAt the same table with you:\nZharmukhamed\nKamila\nAigerim\nMadina Idrissova\nAylin\nMakpal\nNurmukhamed\nDavid Svanidze\nAman"
+  },
+  {
+    "name": "aylin",
+    "surname": "",
+    "text": "Your place is Table 14\nAt the same table with you:\nZharmukhamed\nKamila\nAigerim\nMadina Idrissova\nNurzhan\nMakpal\nNurmukhamed\nDavid Svanidze\nAman"
+  },
+  {
+    "name": "makpal",
+    "surname": "",
+    "text": "Your place is Table 14\nAt the same table with you:\nZharmukhamed\nKamila\nAigerim\nMadina Idrissova\nNurzhan\nAylin\nNurmukhamed\nDavid Svanidze\nAman"
+  },
+  {
+    "name": "nurmukhamed",
+    "surname": "",
+    "text": "Your place is Table 14\nAt the same table with you:\nZharmukhamed\nKamila\nAigerim\nMadina Idrissova\nNurzhan\nAylin\nMakpal\nDavid Svanidze\nAman"
+  },
+  {
+    "name": "david",
+    "surname": "svanidze",
+    "text": "Your place is Table 14\nAt the same table with you:\nZharmukhamed\nKamila\nAigerim\nMadina Idrissova\nNurzhan\nAylin\nMakpal\nNurmukhamed\nAman"
+  },
+  {
+    "name": "david svanidze",
+    "surname": "",
+    "text": "Your place is Table 14\nAt the same table with you:\nZharmukhamed\nKamila\nAigerim\nMadina Idrissova\nNurzhan\nAylin\nMakpal\nNurmukhamed\nAman"
+  },
+  {
+    "name": "svanidze david",
+    "surname": "",
+    "text": "Your place is Table 14\nAt the same table with you:\nZharmukhamed\nKamila\nAigerim\nMadina Idrissova\nNurzhan\nAylin\nMakpal\nNurmukhamed\nAman"
+  },
+  {
+    "name": "svanidze",
+    "surname": "",
+    "text": "Your place is Table 14\nAt the same table with you:\nZharmukhamed\nKamila\nAigerim\nMadina Idrissova\nNurzhan\nAylin\nMakpal\nNurmukhamed\nAman"
+  },
+  {
+    "name": "aman",
+    "surname": "",
+    "text": "Your place is Table 14\nAt the same table with you:\nZharmukhamed\nKamila\nAigerim\nMadina Idrissova\nNurzhan\nAylin\nMakpal\nNurmukhamed\nDavid Svanidze"
   }
 ]
