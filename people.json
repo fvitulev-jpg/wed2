@@ -1001,6 +1001,21 @@
   },
   {
     "name": "aigerim",
+    "surname": "Amangeldyyeva",
+    "text": "Your place is Table 14\nAt the same table with you:\nZharmukhamed\nKamila\nMadina Idrissova\nNurzhan\nAylin\nMakpal\nNurmukhamed\nDavid Svanidze\nAman"
+  },
+  {
+    "name": "aigerim amangeldyyeva",
+    "surname": "",
+    "text": "Your place is Table 14\nAt the same table with you:\nZharmukhamed\nKamila\nMadina Idrissova\nNurzhan\nAylin\nMakpal\nNurmukhamed\nDavid Svanidze\nAman"
+  },
+  {
+    "name": "amangeldyyeva aigerim",
+    "surname": "",
+    "text": "Your place is Table 14\nAt the same table with you:\nZharmukhamed\nKamila\nMadina Idrissova\nNurzhan\nAylin\nMakpal\nNurmukhamed\nDavid Svanidze\nAman"
+  },
+  {
+    "name": "amangeldyyeva",
     "surname": "",
     "text": "Your place is Table 14\nAt the same table with you:\nZharmukhamed\nKamila\nMadina Idrissova\nNurzhan\nAylin\nMakpal\nNurmukhamed\nDavid Svanidze\nAman"
   },
