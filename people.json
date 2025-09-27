@@ -1223,5 +1223,95 @@
     "name": "dilnura",
     "surname": "",
     "text": "Your place is Table 13\nAt the same table with you:\nKulmakhan\nZhazira\nBakhtiyar\nAizhamal\nAida Abbas\nTemirlan\nZarina Appaz\nIliyas\nAkbota"
+  },
+  {
+    "name": "george",
+    "surname": "svanidze",
+    "text": "Your place is Table 3\nAt the same table with you:\nEkaterina\nMirian\nManana\nLevan Davitashvili\nTea\nHikmat Al Kaitoob\nMark\nHerman"
+  },
+  {
+    "name": "george svanidze",
+    "surname": "",
+    "text": "Your place is Table 3\nAt the same table with you:\nEkaterina\nMirian\nManana\nLevan Davitashvili\nTea\nHikmat Al Kaitoob\nMark\nHerman"
+  },
+  {
+    "name": "svanidze george",
+    "surname": "",
+    "text": "Your place is Table 3\nAt the same table with you:\nEkaterina\nMirian\nManana\nLevan Davitashvili\nTea\nHikmat Al Kaitoob\nMark\nHerman"
+  },
+  {
+    "name": "svanidze",
+    "surname": "",
+    "text": "Your place is Table 3\nAt the same table with you:\nEkaterina\nMirian\nManana\nLevan Davitashvili\nTea\nHikmat Al Kaitoob\nMark\nHerman"
+  },
+  {
+    "name": "ekaterina",
+    "surname": "",
+    "text": "Your place is Table 3\nAt the same table with you:\nGeorge Svanidze\nMirian\nManana\nLevan Davitashvili\nTea\nHikmat Al Kaitoob\nMark\nHerman"
+  },
+  {
+    "name": "mirian",
+    "surname": "",
+    "text": "Your place is Table 3\nAt the same table with you:\nGeorge Svanidze\nEkaterina\nManana\nLevan Davitashvili\nTea\nHikmat Al Kaitoob\nMark\nHerman"
+  },
+  {
+    "name": "manana",
+    "surname": "",
+    "text": "Your place is Table 3\nAt the same table with you:\nGeorge Svanidze\nEkaterina\nMirian\nLevan Davitashvili\nTea\nHikmat Al Kaitoob\nMark\nHerman"
+  },
+  {
+    "name": "levan",
+    "surname": "davitashvili",
+    "text": "Your place is Table 3\nAt the same table with you:\nGeorge Svanidze\nEkaterina\nMirian\nManana\nTea\nHikmat Al Kaitoob\nMark\nHerman"
+  },
+  {
+    "name": "levan davitashvili",
+    "surname": "",
+    "text": "Your place is Table 3\nAt the same table with you:\nGeorge Svanidze\nEkaterina\nMirian\nManana\nTea\nHikmat Al Kaitoob\nMark\nHerman"
+  },
+  {
+    "name": "davitashvili levan",
+    "surname": "",
+    "text": "Your place is Table 3\nAt the same table with you:\nGeorge Svanidze\nEkaterina\nMirian\nManana\nTea\nHikmat Al Kaitoob\nMark\nHerman"
+  },
+  {
+    "name": "davitashvili",
+    "surname": "",
+    "text": "Your place is Table 3\nAt the same table with you:\nGeorge Svanidze\nEkaterina\nMirian\nManana\nTea\nHikmat Al Kaitoob\nMark\nHerman"
+  },
+  {
+    "name": "tea",
+    "surname": "",
+    "text": "Your place is Table 3\nAt the same table with you:\nGeorge Svanidze\nEkaterina\nMirian\nManana\nLevan Davitashvili\nHikmat Al Kaitoob\nMark\nHerman"
+  },
+  {
+    "name": "hikmat",
+    "surname": "al kaitoob",
+    "text": "Your place is Table 3\nAt the same table with you:\nGeorge Svanidze\nEkaterina\nMirian\nManana\nLevan Davitashvili\nTea\nMark\nHerman"
+  },
+  {
+    "name": "hikmat al kaitoob",
+    "surname": "",
+    "text": "Your place is Table 3\nAt the same table with you:\nGeorge Svanidze\nEkaterina\nMirian\nManana\nLevan Davitashvili\nTea\nMark\nHerman"
+  },
+  {
+    "name": "al kaitoob hikmat",
+    "surname": "",
+    "text": "Your place is Table 3\nAt the same table with you:\nGeorge Svanidze\nEkaterina\nMirian\nManana\nLevan Davitashvili\nTea\nMark\nHerman"
+  },
+  {
+    "name": "al kaitoob",
+    "surname": "",
+    "text": "Your place is Table 3\nAt the same table with you:\nGeorge Svanidze\nEkaterina\nMirian\nManana\nLevan Davitashvili\nTea\nMark\nHerman"
+  },
+  {
+    "name": "mark",
+    "surname": "",
+    "text": "Your place is Table 3\nAt the same table with you:\nGeorge Svanidze\nEkaterina\nMirian\nManana\nLevan Davitashvili\nTea\nHikmat Al Kaitoob\nHerman"
+  },
+  {
+    "name": "herman",
+    "surname": "",
+    "text": "Your place is Table 3\nAt the same table with you:\nGeorge Svanidze\nEkaterina\nMirian\nManana\nLevan Davitashvili\nTea\nHikmat Al Kaitoob\nMark"
   }
 ]
