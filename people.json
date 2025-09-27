@@ -878,5 +878,55 @@
     "name": "shingis",
     "surname": "",
     "text": "Your place is Table 16\nAt the same table with you:\nBurak\nAnna\nAli Kemal\nVladislav Martynov\nMaria\nMichael\nIrina\nHaruhiko\nAyano"
+  },
+  {
+    "name": "serzhan",
+    "surname": "",
+    "text": "Your place is Table 4\nAt the same table with you:\nAidana\nArmanzhan\nDilya\nNurlan\nAizhan\nMarat\nSholpan\nZhakyp\nNuriya"
+  },
+  {
+    "name": "aidana",
+    "surname": "",
+    "text": "Your place is Table 4\nAt the same table with you:\nSerzhan\nArmanzhan\nDilya\nNurlan\nAizhan\nMarat\nSholpan\nZhakyp\nNuriya"
+  },
+  {
+    "name": "armanzhan",
+    "surname": "",
+    "text": "Your place is Table 4\nAt the same table with you:\nSerzhan\nAidana\nDilya\nNurlan\nAizhan\nMarat\nSholpan\nZhakyp\nNuriya"
+  },
+  {
+    "name": "dilya",
+    "surname": "",
+    "text": "Your place is Table 4\nAt the same table with you:\nSerzhan\nAidana\nArmanzhan\nNurlan\nAizhan\nMarat\nSholpan\nZhakyp\nNuriya"
+  },
+  {
+    "name": "nurlan",
+    "surname": "",
+    "text": "Your place is Table 4\nAt the same table with you:\nSerzhan\nAidana\nArmanzhan\nDilya\nAizhan\nMarat\nSholpan\nZhakyp\nNuriya"
+  },
+  {
+    "name": "aizhan",
+    "surname": "",
+    "text": "Your place is Table 4\nAt the same table with you:\nSerzhan\nAidana\nArmanzhan\nDilya\nNurlan\nMarat\nSholpan\nZhakyp\nNuriya"
+  },
+  {
+    "name": "marat",
+    "surname": "",
+    "text": "Your place is Table 4\nAt the same table with you:\nSerzhan\nAidana\nArmanzhan\nDilya\nNurlan\nAizhan\nSholpan\nZhakyp\nNuriya"
+  },
+  {
+    "name": "sholpan",
+    "surname": "",
+    "text": "Your place is Table 4\nAt the same table with you:\nSerzhan\nAidana\nArmanzhan\nDilya\nNurlan\nAizhan\nMarat\nZhakyp\nNuriya"
+  },
+  {
+    "name": "zhakyp",
+    "surname": "",
+    "text": "Your place is Table 4\nAt the same table with you:\nSerzhan\nAidana\nArmanzhan\nDilya\nNurlan\nAizhan\nMarat\nSholpan\nNuriya"
+  },
+  {
+    "name": "nuriya",
+    "surname": "",
+    "text": "Your place is Table 4\nAt the same table with you:\nSerzhan\nAidana\nArmanzhan\nDilya\nNurlan\nAizhan\nMarat\nSholpan\nZhakyp"
   }
 ]
