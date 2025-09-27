@@ -928,5 +928,65 @@
     "name": "nuriya",
     "surname": "",
     "text": "Your place is Table 4\nAt the same table with you:\nSerzhan\nAidana\nArmanzhan\nDilya\nNurlan\nAizhan\nMarat\nSholpan\nZhakyp"
+  },
+  {
+    "name": "dinmukhamet",
+    "surname": "",
+    "text": "Your place is Table 15\nAt the same table with you:\nMagda\nIbragim\nRaushan\nGulzhan\nWee Tan\nAlua\nAiman\nMira"
+  },
+  {
+    "name": "magda",
+    "surname": "",
+    "text": "Your place is Table 15\nAt the same table with you:\nDinmukhamet\nIbragim\nRaushan\nGulzhan\nWee Tan\nAlua\nAiman\nMira"
+  },
+  {
+    "name": "ibragim",
+    "surname": "",
+    "text": "Your place is Table 15\nAt the same table with you:\nDinmukhamet\nMagda\nRaushan\nGulzhan\nWee Tan\nAlua\nAiman\nMira"
+  },
+  {
+    "name": "raushan",
+    "surname": "",
+    "text": "Your place is Table 15\nAt the same table with you:\nDinmukhamet\nMagda\nIbragim\nGulzhan\nWee Tan\nAlua\nAiman\nMira"
+  },
+  {
+    "name": "gulzhan",
+    "surname": "",
+    "text": "Your place is Table 15\nAt the same table with you:\nDinmukhamet\nMagda\nIbragim\nRaushan\nWee Tan\nAlua\nAiman\nMira"
+  },
+  {
+    "name": "wee",
+    "surname": "tan",
+    "text": "Your place is Table 15\nAt the same table with you:\nDinmukhamet\nMagda\nIbragim\nRaushan\nGulzhan\nAlua\nAiman\nMira"
+  },
+  {
+    "name": "wee tan",
+    "surname": "",
+    "text": "Your place is Table 15\nAt the same table with you:\nDinmukhamet\nMagda\nIbragim\nRaushan\nGulzhan\nAlua\nAiman\nMira"
+  },
+  {
+    "name": "tan wee",
+    "surname": "",
+    "text": "Your place is Table 15\nAt the same table with you:\nDinmukhamet\nMagda\nIbragim\nRaushan\nGulzhan\nAlua\nAiman\nMira"
+  },
+  {
+    "name": "tan",
+    "surname": "",
+    "text": "Your place is Table 15\nAt the same table with you:\nDinmukhamet\nMagda\nIbragim\nRaushan\nGulzhan\nAlua\nAiman\nMira"
+  },
+  {
+    "name": "alua",
+    "surname": "",
+    "text": "Your place is Table 15\nAt the same table with you:\nDinmukhamet\nMagda\nIbragim\nRaushan\nGulzhan\nWee Tan\nAiman\nMira"
+  },
+  {
+    "name": "aiman",
+    "surname": "",
+    "text": "Your place is Table 15\nAt the same table with you:\nDinmukhamet\nMagda\nIbragim\nRaushan\nGulzhan\nWee Tan\nAlua\nMira"
+  },
+  {
+    "name": "mira",
+    "surname": "",
+    "text": "Your place is Table 15\nAt the same table with you:\nDinmukhamet\nMagda\nIbragim\nRaushan\nGulzhan\nWee Tan\nAlua\nAiman"
   }
 ]
