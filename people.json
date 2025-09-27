@@ -100,13 +100,54 @@
     "text": "Your place is Head Table\nAt the same table with you:\nEnzo\nMiran\nRang\nVikram\nDina\nTina\nMax\nCynthia\nAdi\nJakob\nAlina\nSerish\nJoao\nAida\nGabby\nBlaise\nAru\nAiko\nTogzhan"
   },
   {
-    "name": "fyodor",
-    "surname": "vitulev",
-    "text": "Your place is Head Table\nAt the same table with you:\nEnzo\nMiran\nRang\nVikram\nDina\nTina\nMax\nCynthia\nAdi\nJakob\nAlina\nSerish\nJoao\nAida\nGabby\nBlaise\nAru\nAiko\nJanger"
+    "name": "earl",
+    "surname": "",
+    "text": "Your place is Table 1\nAt the same table with you:\nCharlotte\nMarcella\nTony\nSteve\nMegan\nAdam Peck\nJenny Bicks\nRobbi Jo\nAaron Cresin"
   },
   {
-    "name": "fyodor",
-    "surname": "left",
-    "text": "Your place is 1 Table\nAt the same table with you"
-  }
+    "name": "charlotte",
+    "surname": "",
+    "text": "Your place is Table 1\nAt the same table with you:\nEarl\nMarcella\nTony\nSteve\nMegan\nAdam Peck\nJenny Bicks\nRobbi Jo\nAaron Cresin"
+  },
+  {
+    "name": "marcella",
+    "surname": "",
+    "text": "Your place is Table 1\nAt the same table with you:\nEarl\nCharlotte\nTony\nSteve\nMegan\nAdam Peck\nJenny Bicks\nRobbi Jo\nAaron Cresin"
+  },
+  {
+    "name": "tony",
+    "surname": "",
+    "text": "Your place is Table 1\nAt the same table with you:\nEarl\nCharlotte\nMarcella\nSteve\nMegan\nAdam Peck\nJenny Bicks\nRobbi Jo\nAaron Cresin"
+  },
+  {
+    "name": "steve",
+    "surname": "",
+    "text": "Your place is Table 1\nAt the same table with you:\nEarl\nCharlotte\nMarcella\nTony\nMegan\nAdam Peck\nJenny Bicks\nRobbi Jo\nAaron Cresin"
+  },
+  {
+    "name": "megan",
+    "surname": "",
+    "text": "Your place is Table 1\nAt the same table with you:\nEarl\nCharlotte\nMarcella\nTony\nSteve\nAdam Peck\nJenny Bicks\nRobbi Jo\nAaron Cresin"
+  },
+  {
+    "name": "adam",
+    "surname": "peck",
+    "text": "Your place is Table 1\nAt the same table with you:\nEarl\nCharlotte\nMarcella\nTony\nSteve\nMegan\nJenny Bicks\nRobbi Jo\nAaron Cresin"
+  },
+  {
+    "name": "jenny",
+    "surname": "bicks",
+    "text": "Your place is Table 1\nAt the same table with you:\nEarl\nCharlotte\nMarcella\nTony\nSteve\nMegan\nAdam Peck\nRobbi Jo\nAaron Cresin"
+  },
+  {
+    "name": "robbi",
+    "surname": "jo",
+    "text": "Your place is Table 1\nAt the same table with you:\nEarl\nCharlotte\nMarcella\nTony\nSteve\nMegan\nAdam Peck\nJenny Bicks\nAaron Cresin"
+  },
+  {
+    "name": "aaron",
+    "surname": "cresin",
+    "text": "Your place is Table 1\nAt the same table with you:\nEarl\nCharlotte\nMarcella\nTony\nSteve\nMegan\nAdam Peck\nJenny Bicks\nRobbi Jo"
+  },
+
 ]
