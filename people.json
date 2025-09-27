@@ -1128,5 +1128,85 @@
     "name": "sveta",
     "surname": "",
     "text": "Your place is Table 11\nAt the same table with you:\nTaira\nMariyam\nAdel\nTail\nIdris\nAvi\nMadina T\nZhasmin\nZarina"
+  },
+  {
+    "name": "kulmakhan",
+    "surname": "",
+    "text": "Your place is Table 13\nAt the same table with you:\nZhazira\nBakhtiyar\nAizhamal\nAida Abbas\nTemirlan\nZarina Appaz\nIliyas\nAkbota\nDilnura"
+  },
+  {
+    "name": "zhazira",
+    "surname": "",
+    "text": "Your place is Table 13\nAt the same table with you:\nKulmakhan\nBakhtiyar\nAizhamal\nAida Abbas\nTemirlan\nZarina Appaz\nIliyas\nAkbota\nDilnura"
+  },
+  {
+    "name": "bakhtiyar",
+    "surname": "",
+    "text": "Your place is Table 13\nAt the same table with you:\nKulmakhan\nZhazira\nAizhamal\nAida Abbas\nTemirlan\nZarina Appaz\nIliyas\nAkbota\nDilnura"
+  },
+  {
+    "name": "aizhamal",
+    "surname": "",
+    "text": "Your place is Table 13\nAt the same table with you:\nKulmakhan\nZhazira\nBakhtiyar\nAida Abbas\nTemirlan\nZarina Appaz\nIliyas\nAkbota\nDilnura"
+  },
+  {
+    "name": "aida",
+    "surname": "abbas",
+    "text": "Your place is Table 13\nAt the same table with you:\nKulmakhan\nZhazira\nBakhtiyar\nAizhamal\nTemirlan\nZarina Appaz\nIliyas\nAkbota\nDilnura"
+  },
+  {
+    "name": "aida abbas",
+    "surname": "",
+    "text": "Your place is Table 13\nAt the same table with you:\nKulmakhan\nZhazira\nBakhtiyar\nAizhamal\nTemirlan\nZarina Appaz\nIliyas\nAkbota\nDilnura"
+  },
+  {
+    "name": "abbas aida",
+    "surname": "",
+    "text": "Your place is Table 13\nAt the same table with you:\nKulmakhan\nZhazira\nBakhtiyar\nAizhamal\nTemirlan\nZarina Appaz\nIliyas\nAkbota\nDilnura"
+  },
+  {
+    "name": "abbas",
+    "surname": "",
+    "text": "Your place is Table 13\nAt the same table with you:\nKulmakhan\nZhazira\nBakhtiyar\nAizhamal\nTemirlan\nZarina Appaz\nIliyas\nAkbota\nDilnura"
+  },
+  {
+    "name": "temirlan",
+    "surname": "",
+    "text": "Your place is Table 13\nAt the same table with you:\nKulmakhan\nZhazira\nBakhtiyar\nAizhamal\nAida Abbas\nZarina Appaz\nIliyas\nAkbota\nDilnura"
+  },
+  {
+    "name": "zarina",
+    "surname": "appaz",
+    "text": "Your place is Table 13\nAt the same table with you:\nKulmakhan\nZhazira\nBakhtiyar\nAizhamal\nAida Abbas\nTemirlan\nIliyas\nAkbota\nDilnura"
+  },
+  {
+    "name": "zarina appaz",
+    "surname": "",
+    "text": "Your place is Table 13\nAt the same table with you:\nKulmakhan\nZhazira\nBakhtiyar\nAizhamal\nAida Abbas\nTemirlan\nIliyas\nAkbota\nDilnura"
+  },
+  {
+    "name": "appaz zarina",
+    "surname": "",
+    "text": "Your place is Table 13\nAt the same table with you:\nKulmakhan\nZhazira\nBakhtiyar\nAizhamal\nAida Abbas\nTemirlan\nIliyas\nAkbota\nDilnura"
+  },
+  {
+    "name": "appaz",
+    "surname": "",
+    "text": "Your place is Table 13\nAt the same table with you:\nKulmakhan\nZhazira\nBakhtiyar\nAizhamal\nAida Abbas\nTemirlan\nIliyas\nAkbota\nDilnura"
+  },
+  {
+    "name": "iliyas",
+    "surname": "",
+    "text": "Your place is Table 13\nAt the same table with you:\nKulmakhan\nZhazira\nBakhtiyar\nAizhamal\nAida Abbas\nTemirlan\nZarina Appaz\nAkbota\nDilnura"
+  },
+  {
+    "name": "akbota",
+    "surname": "",
+    "text": "Your place is Table 13\nAt the same table with you:\nKulmakhan\nZhazira\nBakhtiyar\nAizhamal\nAida Abbas\nTemirlan\nZarina Appaz\nIliyas\nDilnura"
+  },
+  {
+    "name": "dilnura",
+    "surname": "",
+    "text": "Your place is Table 13\nAt the same table with you:\nKulmakhan\nZhazira\nBakhtiyar\nAizhamal\nAida Abbas\nTemirlan\nZarina Appaz\nIliyas\nAkbota"
   }
 ]
