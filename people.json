@@ -1068,5 +1068,65 @@
     "name": "aman",
     "surname": "",
     "text": "Your place is Table 14\nAt the same table with you:\nZharmukhamed\nKamila\nAigerim\nMadina Idrissova\nNurzhan\nAylin\nMakpal\nNurmukhamed\nDavid Svanidze"
+  },
+  {
+    "name": "taira",
+    "surname": "",
+    "text": "Your place is Table 11\nAt the same table with you:\nMariyam\nAdel\nTail\nIdris\nAvi\nMadina T\nZhasmin\nZarina\nSveta"
+  },
+  {
+    "name": "mariyam",
+    "surname": "",
+    "text": "Your place is Table 11\nAt the same table with you:\nTaira\nAdel\nTail\nIdris\nAvi\nMadina T\nZhasmin\nZarina\nSveta"
+  },
+  {
+    "name": "adel",
+    "surname": "",
+    "text": "Your place is Table 11\nAt the same table with you:\nTaira\nMariyam\nTail\nIdris\nAvi\nMadina T\nZhasmin\nZarina\nSveta"
+  },
+  {
+    "name": "tail",
+    "surname": "",
+    "text": "Your place is Table 11\nAt the same table with you:\nTaira\nMariyam\nAdel\nIdris\nAvi\nMadina T\nZhasmin\nZarina\nSveta"
+  },
+  {
+    "name": "idris",
+    "surname": "",
+    "text": "Your place is Table 11\nAt the same table with you:\nTaira\nMariyam\nAdel\nTail\nAvi\nMadina T\nZhasmin\nZarina\nSveta"
+  },
+  {
+    "name": "avi",
+    "surname": "",
+    "text": "Your place is Table 11\nAt the same table with you:\nTaira\nMariyam\nAdel\nTail\nIdris\nMadina T\nZhasmin\nZarina\nSveta"
+  },
+  {
+    "name": "madina",
+    "surname": "t",
+    "text": "Your place is Table 11\nAt the same table with you:\nTaira\nMariyam\nAdel\nTail\nIdris\nAvi\nZhasmin\nZarina\nSveta"
+  },
+  {
+    "name": "madina t",
+    "surname": "",
+    "text": "Your place is Table 11\nAt the same table with you:\nTaira\nMariyam\nAdel\nTail\nIdris\nAvi\nZhasmin\nZarina\nSveta"
+  },
+  {
+    "name": "t madina",
+    "surname": "",
+    "text": "Your place is Table 11\nAt the same table with you:\nTaira\nMariyam\nAdel\nTail\nIdris\nAvi\nZhasmin\nZarina\nSveta"
+  },
+  {
+    "name": "zhasmin",
+    "surname": "",
+    "text": "Your place is Table 11\nAt the same table with you:\nTaira\nMariyam\nAdel\nTail\nIdris\nAvi\nMadina T\nZarina\nSveta"
+  },
+  {
+    "name": "zarina",
+    "surname": "",
+    "text": "Your place is Table 11\nAt the same table with you:\nTaira\nMariyam\nAdel\nTail\nIdris\nAvi\nMadina T\nZhasmin\nSveta"
+  },
+  {
+    "name": "sveta",
+    "surname": "",
+    "text": "Your place is Table 11\nAt the same table with you:\nTaira\nMariyam\nAdel\nTail\nIdris\nAvi\nMadina T\nZhasmin\nZarina"
   }
 ]
