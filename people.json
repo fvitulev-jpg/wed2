@@ -718,5 +718,85 @@
     "name": "sung",
     "surname": "",
     "text": "Your place is Table 8\nAt the same table with you:\nAlina Baimenova\nArslan\nYouyou\nJayashree\nGayatri\nJoppe\nJohn\nAkul\nAndre\nTara\nGhaniya\nImaji\nWitek\nAdrianna\nJulie\nGustav\nMarcus\nYangyi\nSamantha Kim"
+  },
+  {
+    "name": "nicole",
+    "surname": "",
+    "text": "Your place is Table 12\nAt the same table with you:\nPietro\nAmber\nAdam Ryan\nKristoffer\nThomas Kragerud\nMalik\nYohaan\nRoopak\nHarshil"
+  },
+  {
+    "name": "pietro",
+    "surname": "",
+    "text": "Your place is Table 12\nAt the same table with you:\nNicole\nAmber\nAdam Ryan\nKristoffer\nThomas Kragerud\nMalik\nYohaan\nRoopak\nHarshil"
+  },
+  {
+    "name": "amber",
+    "surname": "",
+    "text": "Your place is Table 12\nAt the same table with you:\nNicole\nPietro\nAdam Ryan\nKristoffer\nThomas Kragerud\nMalik\nYohaan\nRoopak\nHarshil"
+  },
+  {
+    "name": "adam",
+    "surname": "ryan",
+    "text": "Your place is Table 12\nAt the same table with you:\nNicole\nPietro\nAmber\nKristoffer\nThomas Kragerud\nMalik\nYohaan\nRoopak\nHarshil"
+  },
+  {
+    "name": "adam ryan",
+    "surname": "",
+    "text": "Your place is Table 12\nAt the same table with you:\nNicole\nPietro\nAmber\nKristoffer\nThomas Kragerud\nMalik\nYohaan\nRoopak\nHarshil"
+  },
+  {
+    "name": "ryan adam",
+    "surname": "",
+    "text": "Your place is Table 12\nAt the same table with you:\nNicole\nPietro\nAmber\nKristoffer\nThomas Kragerud\nMalik\nYohaan\nRoopak\nHarshil"
+  },
+  {
+    "name": "ryan",
+    "surname": "",
+    "text": "Your place is Table 12\nAt the same table with you:\nNicole\nPietro\nAmber\nKristoffer\nThomas Kragerud\nMalik\nYohaan\nRoopak\nHarshil"
+  },
+  {
+    "name": "kristoffer",
+    "surname": "",
+    "text": "Your place is Table 12\nAt the same table with you:\nNicole\nPietro\nAmber\nAdam Ryan\nThomas Kragerud\nMalik\nYohaan\nRoopak\nHarshil"
+  },
+  {
+    "name": "thomas",
+    "surname": "kragerud",
+    "text": "Your place is Table 12\nAt the same table with you:\nNicole\nPietro\nAmber\nAdam Ryan\nKristoffer\nMalik\nYohaan\nRoopak\nHarshil"
+  },
+  {
+    "name": "thomas kragerud",
+    "surname": "",
+    "text": "Your place is Table 12\nAt the same table with you:\nNicole\nPietro\nAmber\nAdam Ryan\nKristoffer\nMalik\nYohaan\nRoopak\nHarshil"
+  },
+  {
+    "name": "kragerud thomas",
+    "surname": "",
+    "text": "Your place is Table 12\nAt the same table with you:\nNicole\nPietro\nAmber\nAdam Ryan\nKristoffer\nMalik\nYohaan\nRoopak\nHarshil"
+  },
+  {
+    "name": "kragerud",
+    "surname": "",
+    "text": "Your place is Table 12\nAt the same table with you:\nNicole\nPietro\nAmber\nAdam Ryan\nKristoffer\nMalik\nYohaan\nRoopak\nHarshil"
+  },
+  {
+    "name": "malik",
+    "surname": "",
+    "text": "Your place is Table 12\nAt the same table with you:\nNicole\nPietro\nAmber\nAdam Ryan\nKristoffer\nThomas Kragerud\nYohaan\nRoopak\nHarshil"
+  },
+  {
+    "name": "yohaan",
+    "surname": "",
+    "text": "Your place is Table 12\nAt the same table with you:\nNicole\nPietro\nAmber\nAdam Ryan\nKristoffer\nThomas Kragerud\nMalik\nRoopak\nHarshil"
+  },
+  {
+    "name": "roopak",
+    "surname": "",
+    "text": "Your place is Table 12\nAt the same table with you:\nNicole\nPietro\nAmber\nAdam Ryan\nKristoffer\nThomas Kragerud\nMalik\nYohaan\nHarshil"
+  },
+  {
+    "name": "harshil",
+    "surname": "",
+    "text": "Your place is Table 12\nAt the same table with you:\nNicole\nPietro\nAmber\nAdam Ryan\nKristoffer\nThomas Kragerud\nMalik\nYohaan\nRoopak"
   }
 ]
