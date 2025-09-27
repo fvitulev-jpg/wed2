@@ -798,5 +798,85 @@
     "name": "harshil",
     "surname": "",
     "text": "Your place is Table 12\nAt the same table with you:\nNicole\nPietro\nAmber\nAdam Ryan\nKristoffer\nThomas Kragerud\nMalik\nYohaan\nRoopak"
+  },
+  {
+    "name": "burak",
+    "surname": "",
+    "text": "Your place is Table 16\nAt the same table with you:\nAnna\nAli Kemal\nVladislav Martynov\nMaria\nMichael\nIrina\nHaruhiko\nAyano\nShingis"
+  },
+  {
+    "name": "anna",
+    "surname": "",
+    "text": "Your place is Table 16\nAt the same table with you:\nBurak\nAli Kemal\nVladislav Martynov\nMaria\nMichael\nIrina\nHaruhiko\nAyano\nShingis"
+  },
+  {
+    "name": "ali",
+    "surname": "kemal",
+    "text": "Your place is Table 16\nAt the same table with you:\nBurak\nAnna\nVladislav Martynov\nMaria\nMichael\nIrina\nHaruhiko\nAyano\nShingis"
+  },
+  {
+    "name": "ali kemal",
+    "surname": "",
+    "text": "Your place is Table 16\nAt the same table with you:\nBurak\nAnna\nVladislav Martynov\nMaria\nMichael\nIrina\nHaruhiko\nAyano\nShingis"
+  },
+  {
+    "name": "kemal ali",
+    "surname": "",
+    "text": "Your place is Table 16\nAt the same table with you:\nBurak\nAnna\nVladislav Martynov\nMaria\nMichael\nIrina\nHaruhiko\nAyano\nShingis"
+  },
+  {
+    "name": "kemal",
+    "surname": "",
+    "text": "Your place is Table 16\nAt the same table with you:\nBurak\nAnna\nVladislav Martynov\nMaria\nMichael\nIrina\nHaruhiko\nAyano\nShingis"
+  },
+  {
+    "name": "vladislav",
+    "surname": "martynov",
+    "text": "Your place is Table 16\nAt the same table with you:\nBurak\nAnna\nAli Kemal\nMaria\nMichael\nIrina\nHaruhiko\nAyano\nShingis"
+  },
+  {
+    "name": "vladislav martynov",
+    "surname": "",
+    "text": "Your place is Table 16\nAt the same table with you:\nBurak\nAnna\nAli Kemal\nMaria\nMichael\nIrina\nHaruhiko\nAyano\nShingis"
+  },
+  {
+    "name": "martynov vladislav",
+    "surname": "",
+    "text": "Your place is Table 16\nAt the same table with you:\nBurak\nAnna\nAli Kemal\nMaria\nMichael\nIrina\nHaruhiko\nAyano\nShingis"
+  },
+  {
+    "name": "martynov",
+    "surname": "",
+    "text": "Your place is Table 16\nAt the same table with you:\nBurak\nAnna\nAli Kemal\nMaria\nMichael\nIrina\nHaruhiko\nAyano\nShingis"
+  },
+  {
+    "name": "maria",
+    "surname": "",
+    "text": "Your place is Table 16\nAt the same table with you:\nBurak\nAnna\nAli Kemal\nVladislav Martynov\nMichael\nIrina\nHaruhiko\nAyano\nShingis"
+  },
+  {
+    "name": "michael",
+    "surname": "",
+    "text": "Your place is Table 16\nAt the same table with you:\nBurak\nAnna\nAli Kemal\nVladislav Martynov\nMaria\nIrina\nHaruhiko\nAyano\nShingis"
+  },
+  {
+    "name": "irina",
+    "surname": "",
+    "text": "Your place is Table 16\nAt the same table with you:\nBurak\nAnna\nAli Kemal\nVladislav Martynov\nMaria\nMichael\nHaruhiko\nAyano\nShingis"
+  },
+  {
+    "name": "haruhiko",
+    "surname": "",
+    "text": "Your place is Table 16\nAt the same table with you:\nBurak\nAnna\nAli Kemal\nVladislav Martynov\nMaria\nMichael\nIrina\nAyano\nShingis"
+  },
+  {
+    "name": "ayano",
+    "surname": "",
+    "text": "Your place is Table 16\nAt the same table with you:\nBurak\nAnna\nAli Kemal\nVladislav Martynov\nMaria\nMichael\nIrina\nHaruhiko\nShingis"
+  },
+  {
+    "name": "shingis",
+    "surname": "",
+    "text": "Your place is Table 16\nAt the same table with you:\nBurak\nAnna\nAli Kemal\nVladislav Martynov\nMaria\nMichael\nIrina\nHaruhiko\nAyano"
   }
 ]
