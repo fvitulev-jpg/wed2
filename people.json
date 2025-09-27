@@ -463,5 +463,130 @@
     "name": "ingrid",
     "surname": "",
     "text": "Your place is Table 6\nAt the same table with you:\nBilly\nTimmy\nNoora\nGulnaz\nPhillip\nVasco\nAarik\nAlyssa\nTaka"
+  },
+  {
+    "name": "chaya",
+    "surname": "",
+    "text": "Your place is Table 7\nAt the same table with you:\nLiza\nAlex\nHailey\nKaze\nLuiza\nKent\nBenazir\nAkkerbez\nAlikhan\nKamal\nKasper\nThomas Lundgaard\nTheo\nIskander\nDidar\nAigerim Baitassova\nKarim\nYryssaldy"
+  },
+  {
+    "name": "liza",
+    "surname": "",
+    "text": "Your place is Table 7\nAt the same table with you:\nChaya\nAlex\nHailey\nKaze\nLuiza\nKent\nBenazir\nAkkerbez\nAlikhan\nKamal\nKasper\nThomas Lundgaard\nTheo\nIskander\nDidar\nAigerim Baitassova\nKarim\nYryssaldy"
+  },
+  {
+    "name": "alex",
+    "surname": "",
+    "text": "Your place is Table 7\nAt the same table with you:\nChaya\nLiza\nHailey\nKaze\nLuiza\nKent\nBenazir\nAkkerbez\nAlikhan\nKamal\nKasper\nThomas Lundgaard\nTheo\nIskander\nDidar\nAigerim Baitassova\nKarim\nYryssaldy"
+  },
+  {
+    "name": "hailey",
+    "surname": "",
+    "text": "Your place is Table 7\nAt the same table with you:\nChaya\nLiza\nAlex\nKaze\nLuiza\nKent\nBenazir\nAkkerbez\nAlikhan\nKamal\nKasper\nThomas Lundgaard\nTheo\nIskander\nDidar\nAigerim Baitassova\nKarim\nYryssaldy"
+  },
+  {
+    "name": "kaze",
+    "surname": "",
+    "text": "Your place is Table 7\nAt the same table with you:\nChaya\nLiza\nAlex\nHailey\nLuiza\nKent\nBenazir\nAkkerbez\nAlikhan\nKamal\nKasper\nThomas Lundgaard\nTheo\nIskander\nDidar\nAigerim Baitassova\nKarim\nYryssaldy"
+  },
+  {
+    "name": "luiza",
+    "surname": "",
+    "text": "Your place is Table 7\nAt the same table with you:\nChaya\nLiza\nAlex\nHailey\nKaze\nKent\nBenazir\nAkkerbez\nAlikhan\nKamal\nKasper\nThomas Lundgaard\nTheo\nIskander\nDidar\nAigerim Baitassova\nKarim\nYryssaldy"
+  },
+  {
+    "name": "kent",
+    "surname": "",
+    "text": "Your place is Table 7\nAt the same table with you:\nChaya\nLiza\nAlex\nHailey\nKaze\nLuiza\nBenazir\nAkkerbez\nAlikhan\nKamal\nKasper\nThomas Lundgaard\nTheo\nIskander\nDidar\nAigerim Baitassova\nKarim\nYryssaldy"
+  },
+  {
+    "name": "benazir",
+    "surname": "",
+    "text": "Your place is Table 7\nAt the same table with you:\nChaya\nLiza\nAlex\nHailey\nKaze\nLuiza\nKent\nAkkerbez\nAlikhan\nKamal\nKasper\nThomas Lundgaard\nTheo\nIskander\nDidar\nAigerim Baitassova\nKarim\nYryssaldy"
+  },
+  {
+    "name": "akkerbez",
+    "surname": "",
+    "text": "Your place is Table 7\nAt the same table with you:\nChaya\nLiza\nAlex\nHailey\nKaze\nLuiza\nKent\nBenazir\nAlikhan\nKamal\nKasper\nThomas Lundgaard\nTheo\nIskander\nDidar\nAigerim Baitassova\nKarim\nYryssaldy"
+  },
+  {
+    "name": "alikhan",
+    "surname": "",
+    "text": "Your place is Table 7\nAt the same table with you:\nChaya\nLiza\nAlex\nHailey\nKaze\nLuiza\nKent\nBenazir\nAkkerbez\nKamal\nKasper\nThomas Lundgaard\nTheo\nIskander\nDidar\nAigerim Baitassova\nKarim\nYryssaldy"
+  },
+  {
+    "name": "kamal",
+    "surname": "",
+    "text": "Your place is Table 7\nAt the same table with you:\nChaya\nLiza\nAlex\nHailey\nKaze\nLuiza\nKent\nBenazir\nAkkerbez\nAlikhan\nKasper\nThomas Lundgaard\nTheo\nIskander\nDidar\nAigerim Baitassova\nKarim\nYryssaldy"
+  },
+  {
+    "name": "kasper",
+    "surname": "",
+    "text": "Your place is Table 7\nAt the same table with you:\nChaya\nLiza\nAlex\nHailey\nKaze\nLuiza\nKent\nBenazir\nAkkerbez\nAlikhan\nKamal\nThomas Lundgaard\nTheo\nIskander\nDidar\nAigerim Baitassova\nKarim\nYryssaldy"
+  },
+  {
+    "name": "thomas",
+    "surname": "lundgaard",
+    "text": "Your place is Table 7\nAt the same table with you:\nChaya\nLiza\nAlex\nHailey\nKaze\nLuiza\nKent\nBenazir\nAkkerbez\nAlikhan\nKamal\nKasper\nTheo\nIskander\nDidar\nAigerim Baitassova\nKarim\nYryssaldy"
+  },
+  {
+    "name": "thomas lundgaard",
+    "surname": "",
+    "text": "Your place is Table 7\nAt the same table with you:\nChaya\nLiza\nAlex\nHailey\nKaze\nLuiza\nKent\nBenazir\nAkkerbez\nAlikhan\nKamal\nKasper\nTheo\nIskander\nDidar\nAigerim Baitassova\nKarim\nYryssaldy"
+  },
+  {
+    "name": "lundgaard thomas",
+    "surname": "",
+    "text": "Your place is Table 7\nAt the same table with you:\nChaya\nLiza\nAlex\nHailey\nKaze\nLuiza\nKent\nBenazir\nAkkerbez\nAlikhan\nKamal\nKasper\nTheo\nIskander\nDidar\nAigerim Baitassova\nKarim\nYryssaldy"
+  },
+  {
+    "name": "lundgaard",
+    "surname": "",
+    "text": "Your place is Table 7\nAt the same table with you:\nChaya\nLiza\nAlex\nHailey\nKaze\nLuiza\nKent\nBenazir\nAkkerbez\nAlikhan\nKamal\nKasper\nTheo\nIskander\nDidar\nAigerim Baitassova\nKarim\nYryssaldy"
+  },
+  {
+    "name": "theo",
+    "surname": "",
+    "text": "Your place is Table 7\nAt the same table with you:\nChaya\nLiza\nAlex\nHailey\nKaze\nLuiza\nKent\nBenazir\nAkkerbez\nAlikhan\nKamal\nKasper\nThomas Lundgaard\nIskander\nDidar\nAigerim Baitassova\nKarim\nYryssaldy"
+  },
+  {
+    "name": "iskander",
+    "surname": "",
+    "text": "Your place is Table 7\nAt the same table with you:\nChaya\nLiza\nAlex\nHailey\nKaze\nLuiza\nKent\nBenazir\nAkkerbez\nAlikhan\nKamal\nKasper\nThomas Lundgaard\nTheo\nDidar\nAigerim Baitassova\nKarim\nYryssaldy"
+  },
+  {
+    "name": "didar",
+    "surname": "",
+    "text": "Your place is Table 7\nAt the same table with you:\nChaya\nLiza\nAlex\nHailey\nKaze\nLuiza\nKent\nBenazir\nAkkerbez\nAlikhan\nKamal\nKasper\nThomas Lundgaard\nTheo\nIskander\nAigerim Baitassova\nKarim\nYryssaldy"
+  },
+  {
+    "name": "aigerim",
+    "surname": "baitassova",
+    "text": "Your place is Table 7\nAt the same table with you:\nChaya\nLiza\nAlex\nHailey\nKaze\nLuiza\nKent\nBenazir\nAkkerbez\nAlikhan\nKamal\nKasper\nThomas Lundgaard\nTheo\nIskander\nDidar\nKarim\nYryssaldy"
+  },
+  {
+    "name": "aigerim baitassova",
+    "surname": "",
+    "text": "Your place is Table 7\nAt the same table with you:\nChaya\nLiza\nAlex\nHailey\nKaze\nLuiza\nKent\nBenazir\nAkkerbez\nAlikhan\nKamal\nKasper\nThomas Lundgaard\nTheo\nIskander\nDidar\nKarim\nYryssaldy"
+  },
+  {
+    "name": "baitassova aigerim",
+    "surname": "",
+    "text": "Your place is Table 7\nAt the same table with you:\nChaya\nLiza\nAlex\nHailey\nKaze\nLuiza\nKent\nBenazir\nAkkerbez\nAlikhan\nKamal\nKasper\nThomas Lundgaard\nTheo\nIskander\nDidar\nKarim\nYryssaldy"
+  },
+  {
+    "name": "baitassova",
+    "surname": "",
+    "text": "Your place is Table 7\nAt the same table with you:\nChaya\nLiza\nAlex\nHailey\nKaze\nLuiza\nKent\nBenazir\nAkkerbez\nAlikhan\nKamal\nKasper\nThomas Lundgaard\nTheo\nIskander\nDidar\nKarim\nYryssaldy"
+  },
+  {
+    "name": "karim",
+    "surname": "",
+    "text": "Your place is Table 7\nAt the same table with you:\nChaya\nLiza\nAlex\nHailey\nKaze\nLuiza\nKent\nBenazir\nAkkerbez\nAlikhan\nKamal\nKasper\nThomas Lundgaard\nTheo\nIskander\nDidar\nAigerim Baitassova\nYryssaldy"
+  },
+  {
+    "name": "yryssaldy",
+    "surname": "",
+    "text": "Your place is Table 7\nAt the same table with you:\nChaya\nLiza\nAlex\nHailey\nKaze\nLuiza\nKent\nBenazir\nAkkerbez\nAlikhan\nKamal\nKasper\nThomas Lundgaard\nTheo\nIskander\nDidar\nAigerim Baitassova\nKarim"
   }
 ]
