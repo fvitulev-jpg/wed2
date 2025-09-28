@@ -1328,5 +1328,85 @@
     "name": "herman",
     "surname": "",
     "text": "Your place is Table 3\nAt the same table with you:\nGeorge Svanidze\nEkaterina\nMirian\nManana\nLevan Davitashvili\nTea\nHikmat Al Kaitoob\nMark"
+  },
+  {
+    "name": "suleiman",
+    "surname": "aka",
+    "text": "Your place is Table 9\nAt the same table with you:\nNigora\nAidar\nAigul\nCan Goktas\nVadim\nErdos\nAssem\nVladimir\nElmira"
+  },
+  {
+    "name": "suleiman aka",
+    "surname": "",
+    "text": "Your place is Table 9\nAt the same table with you:\nNigora\nAidar\nAigul\nCan Goktas\nVadim\nErdos\nAssem\nVladimir\nElmira"
+  },
+  {
+    "name": "aka suleiman",
+    "surname": "",
+    "text": "Your place is Table 9\nAt the same table with you:\nNigora\nAidar\nAigul\nCan Goktas\nVadim\nErdos\nAssem\nVladimir\nElmira"
+  },
+  {
+    "name": "aka",
+    "surname": "",
+    "text": "Your place is Table 9\nAt the same table with you:\nNigora\nAidar\nAigul\nCan Goktas\nVadim\nErdos\nAssem\nVladimir\nElmira"
+  },
+  {
+    "name": "nigora",
+    "surname": "",
+    "text": "Your place is Table 9\nAt the same table with you:\nSuleiman Aka\nAidar\nAigul\nCan Goktas\nVadim\nErdos\nAssem\nVladimir\nElmira"
+  },
+  {
+    "name": "aidar",
+    "surname": "",
+    "text": "Your place is Table 9\nAt the same table with you:\nSuleiman Aka\nNigora\nAigul\nCan Goktas\nVadim\nErdos\nAssem\nVladimir\nElmira"
+  },
+  {
+    "name": "aigul",
+    "surname": "",
+    "text": "Your place is Table 9\nAt the same table with you:\nSuleiman Aka\nNigora\nAidar\nCan Goktas\nVadim\nErdos\nAssem\nVladimir\nElmira"
+  },
+  {
+    "name": "can",
+    "surname": "goktas",
+    "text": "Your place is Table 9\nAt the same table with you:\nSuleiman Aka\nNigora\nAidar\nAigul\nVadim\nErdos\nAssem\nVladimir\nElmira"
+  },
+  {
+    "name": "can goktas",
+    "surname": "",
+    "text": "Your place is Table 9\nAt the same table with you:\nSuleiman Aka\nNigora\nAidar\nAigul\nVadim\nErdos\nAssem\nVladimir\nElmira"
+  },
+  {
+    "name": "goktas can",
+    "surname": "",
+    "text": "Your place is Table 9\nAt the same table with you:\nSuleiman Aka\nNigora\nAidar\nAigul\nVadim\nErdos\nAssem\nVladimir\nElmira"
+  },
+  {
+    "name": "goktas",
+    "surname": "",
+    "text": "Your place is Table 9\nAt the same table with you:\nSuleiman Aka\nNigora\nAidar\nAigul\nVadim\nErdos\nAssem\nVladimir\nElmira"
+  },
+  {
+    "name": "vadim",
+    "surname": "",
+    "text": "Your place is Table 9\nAt the same table with you:\nSuleiman Aka\nNigora\nAidar\nAigul\nCan Goktas\nErdos\nAssem\nVladimir\nElmira"
+  },
+  {
+    "name": "erdos",
+    "surname": "",
+    "text": "Your place is Table 9\nAt the same table with you:\nSuleiman Aka\nNigora\nAidar\nAigul\nCan Goktas\nVadim\nAssem\nVladimir\nElmira"
+  },
+  {
+    "name": "assem",
+    "surname": "",
+    "text": "Your place is Table 9\nAt the same table with you:\nSuleiman Aka\nNigora\nAidar\nAigul\nCan Goktas\nVadim\nErdos\nVladimir\nElmira"
+  },
+  {
+    "name": "vladimir",
+    "surname": "",
+    "text": "Your place is Table 9\nAt the same table with you:\nSuleiman Aka\nNigora\nAidar\nAigul\nCan Goktas\nVadim\nErdos\nAssem\nElmira"
+  },
+  {
+    "name": "elmira",
+    "surname": "",
+    "text": "Your place is Table 9\nAt the same table with you:\nSuleiman Aka\nNigora\nAidar\nAigul\nCan Goktas\nVadim\nErdos\nAssem\nVladimir"
   }
 ]
