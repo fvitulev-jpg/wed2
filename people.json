@@ -51,6 +51,21 @@
   },
   {
     "name": "alina",
+    "surname": "bride",
+    "text": "Your place is Head Table\nAt the same table with you:\nEnzo\nMiran\nRang\nVikram\nDina\nTima\nMax\nCynthia\nAdi\nJakob\nSerish\nJoao\nAida\nGabby\nBlaise\nAru\nAiko\nAbi\nToby"
+  },
+  {
+    "name": "alina bride",
+    "surname": "",
+    "text": "Your place is Head Table\nAt the same table with you:\nEnzo\nMiran\nRang\nVikram\nDina\nTima\nMax\nCynthia\nAdi\nJakob\nSerish\nJoao\nAida\nGabby\nBlaise\nAru\nAiko\nAbi\nToby"
+  },
+  {
+    "name": "bride alina",
+    "surname": "",
+    "text": "Your place is Head Table\nAt the same table with you:\nEnzo\nMiran\nRang\nVikram\nDina\nTima\nMax\nCynthia\nAdi\nJakob\nSerish\nJoao\nAida\nGabby\nBlaise\nAru\nAiko\nAbi\nToby"
+  },
+  {
+    "name": "bride",
     "surname": "",
     "text": "Your place is Head Table\nAt the same table with you:\nEnzo\nMiran\nRang\nVikram\nDina\nTima\nMax\nCynthia\nAdi\nJakob\nSerish\nJoao\nAida\nGabby\nBlaise\nAru\nAiko\nAbi\nToby"
   },
@@ -66,6 +81,16 @@
   },
   {
     "name": "aida",
+    "surname": "baimenova",
+    "text": "Your place is Head Table\nAt the same table with you:\nEnzo\nMiran\nRang\nVikram\nDina\nTima\nMax\nCynthia\nAdi\nJakob\nAlina\nSerish\nJoao\nGabby\nBlaise\nAru\nAiko\nAbi\nToby"
+  },
+  {
+    "name": "aida baimenova",
+    "surname": "",
+    "text": "Your place is Head Table\nAt the same table with you:\nEnzo\nMiran\nRang\nVikram\nDina\nTima\nMax\nCynthia\nAdi\nJakob\nAlina\nSerish\nJoao\nGabby\nBlaise\nAru\nAiko\nAbi\nToby"
+  },
+  {
+    "name": "baimenova aida",
     "surname": "",
     "text": "Your place is Head Table\nAt the same table with you:\nEnzo\nMiran\nRang\nVikram\nDina\nTima\nMax\nCynthia\nAdi\nJakob\nAlina\nSerish\nJoao\nGabby\nBlaise\nAru\nAiko\nAbi\nToby"
   },
@@ -601,11 +626,6 @@
   },
   {
     "name": "baimenova alina",
-    "surname": "",
-    "text": "Your place is Table 8\nAt the same table with you:\nArslan\nYouyou\nJayashree\nGayatri\nJoppe\nJohn\nAkul\nAndre\nTara\nWitek\nAdrianna\nJulie\nGustav\nMarcus\nYangyi\nSamantha Kim\nSung"
-  },
-  {
-    "name": "baimenova",
     "surname": "",
     "text": "Your place is Table 8\nAt the same table with you:\nArslan\nYouyou\nJayashree\nGayatri\nJoppe\nJohn\nAkul\nAndre\nTara\nWitek\nAdrianna\nJulie\nGustav\nMarcus\nYangyi\nSamantha Kim\nSung"
   },
